@@ -120,7 +120,8 @@ Output (classes: 0–9)
 
 上：輸入影像；下：模型預測結果（類別與信心值）
 
-<img src="assets/inference_demo_5.png" width="700"/>
+<img src="assets/test_demo_5.png" width="700"/>
+<img src="assets/result_demo_5.png" width="700"/>
 
 ---
 
