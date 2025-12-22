@@ -38,6 +38,7 @@ A **Taiwan-style hand gesture digit recognition** system (0–9) built with **Te
 - **切分方式**：80% 訓練、20% 驗證  
   - 每類：160 張 train、40 張 test  
   - 總計：1600 張 train、400 張 test
+> **Note**: 由於資料集包含個人隱私且檔案體積較大，原始 `dataset/` 已加入 `.gitignore` 不上傳至 GitHub。
 
 ---
 
@@ -84,7 +85,7 @@ Output (classes: 0–9)
 ```md
 ## Results / 實驗結果
 
-訓練過程總結：
+訓練過程總結（Epochs: 40）：
 - Accuracy: 0.9125
 - Val Accuracy: 0.9400
 - Loss: 0.6431
@@ -96,7 +97,7 @@ Output (classes: 0–9)
 - Train Loss: 0.5318
 - Test Loss: 0.5602
 
-評估指標:
+評估指標 (Evaluation Metrics):
 - Precision: 0.9478
 - Recall: 0.9400
 - F1-score: 0.9399
@@ -104,7 +105,7 @@ Output (classes: 0–9)
 ### Training Curve (Accuracy / Loss)
 <img src="assets/training_result.png" width="800"/>
 
-> The curve shows stable accuracy improvement and decreasing loss without obvious overfitting.
+> 訓練曲線顯示準確率穩定提升且損失值持續下降，無明顯過擬合（Overfitting）現象。
 
 ---
 
@@ -114,19 +115,19 @@ Output (classes: 0–9)
 HandGestureRecognition/
 │
 ├─ assets/
-│  └─ training_result.png
+│  └─ training_result.png              # 訓練曲線圖表
 │
 ├─ model/
-│  └─ hand_gesture_model.h5            # (optional) trained model
+│  └─ hand_gesture_model.h5            # 訓練完成的模型權重
 │
 ├─ src/
-│  ├─ hand_gesture_build_model.py      # training script
-│  ├─ hand_gesture_predict.py          # inference script
+│  ├─ hand_gesture_build_model.py      # 模型建構與訓練腳本
+│  ├─ hand_gesture_predict.py          # 預測辨識腳本
 │  └─ preprocess/
-│     ├─ segmentation.py               # split train/test (80/20)
-│     └─ rename_images.py              # rename images to gesture_{k}_{idx}.jpg
+│     ├─ segmentation.py               # 資料集自動切分 (80/20)
+│     └─ rename_images.py              # 圖片統一命名工具
 │
-├─ dataset/                            #(Excluded from Git) 0-9 gesture images
+├─ dataset/                            # (Git Ignored)
 │  ├─ train/
 │  │  ├─ 0/ ... 9/
 │  └─ test/
