@@ -141,11 +141,14 @@ HandGestureRecognition/
 
 ## How to Run
 
+> Please run commands from the project root directory.
+
 ```bash
 # Train
 python src/hand_gesture_build_model.py
 
 # Predict
 python src/hand_gesture_predict.py
+```
 
 
