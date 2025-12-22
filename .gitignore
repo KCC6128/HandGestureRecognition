@@ -1,0 +1,11 @@
+# dataset (private / large)
+dataset/
+
+# python cache
+__pycache__/
+*.pyc
+
+# venv
+.venv/
+venv/
+
