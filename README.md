@@ -137,3 +137,15 @@ HandGestureRecognition/
 └─ README.md
 ```
 
+---
+
+## How to Run
+
+```bash
+# Train
+python src/hand_gesture_build_model.py
+
+# Predict
+python src/hand_gesture_predict.py
+
+
