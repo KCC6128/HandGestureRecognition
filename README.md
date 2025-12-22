@@ -91,8 +91,8 @@ Output (classes: 0–9)
 - Val Loss: 0.5602
 
 最終表現：
-- Train Accuracy: 94.19%
-- Test Accuracy: 94.00%
+- Train Accuracy: **94.19%**
+- Test Accuracy: **94.00%**
 - Train Loss: 0.5318
 - Test Loss: 0.5602
 
