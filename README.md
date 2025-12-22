@@ -38,6 +38,7 @@ A **Taiwan-style hand gesture digit recognition** system (0–9) built with **Te
 - **切分方式**：80% 訓練、20% 驗證  
   - 每類：160 張 train、40 張 test  
   - 總計：1600 張 train、400 張 test
+
 > **Note**: 由於資料集包含個人隱私且檔案體積較大，原始 `dataset/` 已加入 `.gitignore` 不上傳至 GitHub。
 
 ---
@@ -82,7 +83,7 @@ Output (classes: 0–9)
 
 ---
 
-```markdown
+
 ## Results / 實驗結果
 
 訓練過程總結（Epochs: 40）：
@@ -101,7 +102,7 @@ Output (classes: 0–9)
 - Precision: 0.9478
 - Recall: 0.9400
 - F1-score: 0.9399
-```
+
 ### Training Curve (Accuracy / Loss)
 <img src="assets/training_result.png" width="800"/>
 
