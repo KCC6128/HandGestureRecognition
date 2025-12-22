@@ -134,7 +134,10 @@ Output (classes: 0–9)
 HandGestureRecognition/
 │
 ├─ assets/
-│  └─ training_result.png              # 訓練曲線圖表
+│  ├─ dataset_preview.png              # 資料集示意圖（0~9、左右手、正反面）
+│  ├─ training_result.png              # 訓練曲線圖表（Accuracy / Loss）
+│  ├─ test_demo_5.png                  # 推論示範：輸入影像
+│  └─ result_demo_5.png                # 推論示範：預測結果（類別與信心值）
 │
 ├─ model/
 │  └─ hand_gesture_model.h5            # 訓練完成的模型權重
@@ -148,9 +151,9 @@ HandGestureRecognition/
 │
 ├─ dataset/                            # (Git Ignored)
 │  ├─ train/
-│  │  ├─ 0/ ... 9/
+│  │  └─ 0/ ... 9/
 │  └─ test/
-│     ├─ 0/ ... 9/
+│     └─ 0/ ... 9/
 │
 └─ README.md
 ```
