@@ -43,7 +43,7 @@ A **Taiwan-style hand gesture digit recognition** system (0–9) built with **Te
 
 ### Dataset Preview / 資料集示意圖
 
-下圖為資料集示意（左右手 + 正反面 + 0~9 手勢範例），用於說明資料型態與拍攝角度分布：
+下圖為資料集示意（左右手 + 正反面） 的手勢範例，用於說明資料型態與拍攝角度分布：
 
 <img src="assets/dataset_preview.png" width="400"/>
 
