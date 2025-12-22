@@ -116,6 +116,14 @@ Output (classes: 0–9)
 
 ---
 
+## Inference Demo / 推論示範
+
+上：輸入影像；下：模型預測結果（類別與信心值）
+
+<img src="assets/inference_demo_5.png" width="700"/>
+
+---
+
 ## Project Structure / 專案結構
 
 ```text
