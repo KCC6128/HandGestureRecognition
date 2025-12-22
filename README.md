@@ -125,7 +125,7 @@ HandGestureRecognition/
 │  ├─ hand_gesture_build_model.py      # 模型建構與訓練腳本
 │  ├─ hand_gesture_predict.py          # 預測辨識腳本
 │  └─ preprocess/
-│     ├─ segmentation.py               # 資料集自動切分 (80/20)
+│     ├─ segmentation.py               # 分割資料集 (move 20% images from train to test)
 │     └─ rename_images.py              # 圖片統一命名工具
 │
 ├─ dataset/                            # (Git Ignored)
