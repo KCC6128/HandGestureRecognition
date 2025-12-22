@@ -101,7 +101,7 @@ Output (classes: 0–9)
 - Precision: 0.9478
 - Recall: 0.9400
 - F1-score: 0.9399
-
+```
 ### Training Curve (Accuracy / Loss)
 <img src="assets/training_result.png" width="800"/>
 
