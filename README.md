@@ -5,6 +5,15 @@ A **Taiwan-style hand gesture digit recognition** system (0–9) built with **Te
 
 ---
 
+## Overview / 專案簡介
+
+- **Task**：影像分類（0~9 十類）
+- **Model**：MobileNetV2 (ImageNet pre-trained) + Custom Classifier
+- **Input**：128×128 RGB
+- **Goal**：辨識台灣手勢數字 0~9（左右手、正反面）
+
+---
+
 ## Inference Demo / 推論示範
 
 左：輸入影像；右：模型預測結果（類別與信心值）
@@ -14,15 +23,6 @@ A **Taiwan-style hand gesture digit recognition** system (0–9) built with **Te
   &nbsp;&nbsp;&nbsp;
   <img src="assets/result_demo_5.png" width="320"/>
 </p>
-
----
-
-## Overview / 專案簡介
-
-- **Task**：影像分類（0~9 十類）
-- **Model**：MobileNetV2 (ImageNet pre-trained) + Custom Classifier
-- **Input**：128×128 RGB
-- **Goal**：辨識台灣手勢數字 0~9（左右手、正反面）
 
 ---
 
