@@ -5,6 +5,18 @@ A **Taiwan-style hand gesture digit recognition** system (0–9) built with **Te
 
 ---
 
+## Inference Demo / 推論示範
+
+左：輸入影像；右：模型預測結果（類別與信心值）
+
+<p>
+  <img src="assets/test_demo_5.png" width="320"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="assets/result_demo_5.png" width="320"/>
+</p>
+
+---
+
 ## Overview / 專案簡介
 
 - **Task**：影像分類（0~9 十類）
@@ -113,18 +125,6 @@ Output (classes: 0–9)
 <img src="assets/training_result.png" width="800"/>
 
 > 訓練曲線顯示準確率穩定提升且損失值持續下降，無明顯過擬合（Overfitting）現象。
-
----
-
-## Inference Demo / 推論示範
-
-左：輸入影像；右：模型預測結果（類別與信心值）
-
-<p>
-  <img src="assets/test_demo_5.png" width="320"/>
-  &nbsp;&nbsp;&nbsp;
-  <img src="assets/result_demo_5.png" width="320"/>
-</p>
 
 ---
 
